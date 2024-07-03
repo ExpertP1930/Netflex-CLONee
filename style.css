@@ -10,18 +10,19 @@ body {
 
 .main {
     background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_small.jpg);
-    height: 70vh;
-    background-position: center center;
+    height: 80vh;
+    background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 
 }
 
-.main .box {
-    height: 70vh;
+
+ .box {
+    height: 10vh;
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.7;
     position: absolute;
     top: 0;
     background-color: black;
@@ -38,7 +39,7 @@ nav {
 }
 
 nav img {
-    margin-top: 10px;
+    margin-top: 5px;
     color: red;
     width: 30px;
     position: relative;
@@ -52,8 +53,10 @@ nav button {
 
 }
 
-.same {
-    height: 100%;
+.same  {
+    background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_small.jpg);
+    height: 80%;
+    opacity: 0.9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +67,7 @@ nav button {
 
 }
 
-.same:first-child {
+.same:fisrt-child {
     font-family: 'martel sans', sans-serif;
     font-weight: 900;
     font-size: 48px;
